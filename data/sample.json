@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "experiment-01",
+      "name": "experiment_01",
+      "category": "pricing",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-02",
+      "name": "experiment_02",
+      "category": "onboarding",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-03",
+      "name": "experiment_03",
+      "category": "checkout",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-04",
+      "name": "experiment_04",
+      "category": "email",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "experiment-05",
+      "name": "experiment_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-06",
+      "name": "experiment_06",
+      "category": "onboarding",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-07",
+      "name": "experiment_07",
+      "category": "checkout",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-08",
+      "name": "experiment_08",
+      "category": "email",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "experiment-09",
+      "name": "experiment_09",
+      "category": "pricing",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-10",
+      "name": "experiment_10",
+      "category": "onboarding",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-11",
+      "name": "experiment_11",
+      "category": "checkout",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "experiment-12",
+      "name": "experiment_12",
+      "category": "email",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "experiment-12",
+    "issue_count": 1
+  }
+}

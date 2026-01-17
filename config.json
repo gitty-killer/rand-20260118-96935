@@ -1,0 +1,13 @@
+{
+  "project_title": "Experiment Results Tracker",
+  "goal": "Summarize A/B test outcomes and flag regressions.",
+  "entity_name": "experiment",
+  "amount_label": "lift",
+  "score_label": "confidence_score",
+  "categories": [
+    "pricing",
+    "onboarding",
+    "checkout",
+    "email"
+  ]
+}
